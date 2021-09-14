@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  app:
+    build:
+      context: ./login_and_register/
+      dockerfile: Dockerfile
+    volumes:
+      - ./login_and_register/:/login_and_register/
+    ports:
+      - 5000:5000

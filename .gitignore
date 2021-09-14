@@ -1,0 +1,5 @@
+/venv/
+/__pycache__/
+/login_and_register/__pycache__/
+/login_and_register/login_register.log
+.idea/
